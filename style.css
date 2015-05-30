@@ -290,7 +290,6 @@ footer {
   float: left;
   height: 420px;
   width: 181px;
-  border: 1px dotted black;
   background-color: white;
 }
 
@@ -311,9 +310,32 @@ footer {
   text-decoration: underline;
 }
 
+.footer-column-end {
+  padding-left: 10px;
+  width: 170px;
+  border-left: 1px solid #cecece;
+}
+
+.footer-column-end a {
+  font-size: 12px;
+}
+
 .footer-bottom {
   clear: both;
   height: 30px;
   width: 1100px;
-  background-color: yellow;
+  border-top: 1px solid #cecece;
+}
+
+.footer-bottom a {
+  margin: 0px;
+  padding: 5px 5px;
+  float: left;
+  font-size: 10px;
+  color: #828282;
+  font-weight: normal;
+}
+
+.footer-bottom .right {
+  float: right;
 }
